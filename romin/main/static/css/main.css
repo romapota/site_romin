@@ -1,0 +1,344 @@
+body{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.all_content{
+    max-width: 80%;
+    margin: 0.52vw 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 5.21vw;
+    position: relative;
+    bottom: 0.52vw;
+}
+.top_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top_bar img{
+    color: black;
+    float: left;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    float: right;
+}
+.block p{
+    font-family: "Inter", sans-serif;
+    font-size: 0.94vw;
+    font-weight: 500;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 55%;
+}
+.text_left h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.6vw;
+    font-weight: 300;
+}
+.text_left p{
+    font-family: "Inter", sans-serif;
+    font-size: 0.78vw;
+    font-weight: 500;
+}
+.main_img img{
+    width: 31.35vw;
+    height: 22.97vw;
+}
+
+.text_left button{
+    background-color: #FFD21E;
+    padding: 1.25vw 2.34vw 1.25vw 2.34vw;
+    font-family: "Inter", sans-serif;
+    font-size: 0.83vw;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+.iconss{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+.iconss img{
+    width: 2.60vw;
+    height: 2.60vw;
+}
+
+.services{
+    margin-left: auto;
+    margin-right: auto;
+}
+.services h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.6vw;
+    font-weight: 400;
+}
+.ser{
+   display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10.42vw;
+    max-width: 100%;
+    number: 3;
+}
+.services h2{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.25vw;
+}
+.services p{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 0.78vw;
+}
+.list p{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 0.78vw;
+}
+.carbon{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.carbon img{
+    position: relative;
+    bottom: 0;
+}
+.second{
+    height: 11.98vw;
+    width: 11.98vw;
+}
+.first{
+    height: 6.77vw;
+    width: 6.77vw;
+}
+.ifs h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.6vw;
+    font-weight: 400;
+}
+.ifs h3{
+    font-family: "Inter", sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+.ifss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle{
+    width: 15.63vw;
+    height: 15.63vw;
+    border: 0.83px dotted rgba(37, 40, 41, 1);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.circle_s{
+    width: 15.63vw;
+    height: 15.63vw;
+    border: 0.83px dotted rgba(37, 40, 41, 1);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.circle_t{
+    width: 15.63vw;
+    height: 15.63vw;
+    border: 0.83px dotted rgba(37, 40, 41, 1);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.cooperation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.60vw;
+}
+.dedlines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.60vw;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.60vw;
+}
+.ifs{
+    display: flex;
+    flex-direction: column;
+    gap: 2.60vw;
+}
+.ifss p{
+    font-family: "Inter", sans-serif;
+    font-size: 1.25vw;
+    font-weight: 600;
+    white-space: nowrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.ifss p>span{
+    font-size: 2.08vw;
+}
+.ifs button{
+    position: relative;
+    background-color: #FFD21E;
+    padding: 1.25vw 2.34vw 1.25vw 2.34vw;
+    font-family: "Inter", sans-serif;
+    font-size: 0.83vw;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2.60vw;
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contacts h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.6vw;
+    font-weight: 400;
+}
+.undertitle{
+    font-family: "Inter", sans-serif;
+    font-size: 1.04vw;
+    font-weight: 600;
+}
+.number{
+    font-family: "Inter", sans-serif;
+    font-size: 1.04vw;
+    font-weight: 400;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1%;
+    position: relative;
+    left: -2px;
+}
+.main_contacts img{
+    height: 13.85vw;
+    width: 13.85vw;
+}
+.links img{
+    width: 2.60vw;
+    height: 2.60vw;
+}
+.contacts button{
+    background-color: white;
+    padding: 1.04vw 1.30vw 1.04vw 1.30vw;
+    font-family: "Inter", sans-serif;
+    font-size: 1.04vw;
+    font-weight: 400;
+    border: 1px dotted #252829;
+    border-radius: 5px;
+    margin-top: 0.78vw;
+}
+.main_contacts{
+    position: relative;
+    right:0;
+    top: 5.21vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2.60vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.imp p{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.78vw;
+    color: #CDD1E7;
+}
+.imp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.down_bar{
+    position: relative;
+    top: 7.81vw;
+    background-color: #191E28;
+    margin-left: 0;
+    padding-left: 0;
+}
+.texts{
+    padding-top: 0.52vw;
+    position: relative;
+    max-width: 90%;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texts img{
+    width: 5.21vw;
+    height: 3.13vw;
+}
+.texts p{
+    position: relative;
+    top: 1.04vw;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.right{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 0.68vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+
+}
