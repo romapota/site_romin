@@ -15,6 +15,8 @@ body{
     bottom: 0.52vw;
 }
 .top_bar{
+    position: relative;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,6 +25,25 @@ body{
     color: black;
     float: left;
 }
+.photo_mobile{
+    display: none;
+}
+.photo_mobile button{
+    border: none;
+    color: none;
+    background-color: none;
+}
+.photo_mobile img{
+    display: none;
+    width: 7.50vw;
+    height: 7.50vw;
+}
+.drop_down{
+    display: none;
+}
+.carbon_mobile{
+        display: none;
+    }
 .block{
     display: flex;
     flex-direction: row;
@@ -339,6 +360,211 @@ body{
     text-align: center;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
+    .all_content{
+        gap: 30px;
+    }
+    .top_bar img{
+        width: 17.25vw;
+        height: 10.75vw;
+    }
+    .block{
+        display: none;
+    }
+    .photo_mobile img{
+        display: block;
+        float: right;
+        width: 7.50vw;
+        height: 7.50vw;
+    }
+    .photo_mobile{
+        display: block;
+    }
+    .drop_down{
+        display: none;
+    }
+    .links_down{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .links_down a{
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 3.56vw;
+    }
+    .drop_down img{
+        width: 4.89vw;
+        height: 4.89vw;
+        float: right;
+        position: relative;
+        top: 10px;
+        right: 10px;
+    }
+    .show_for_drop{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #D9D9D9;
+        width: 37.33vw;
+        height: 28.89vw;
+    }
+    .show_for_icons{
+        display: none;
+    }
+    .top_bar{
+        position: relative;
+        top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .iconss{
+        display: none;
 
+    }
+    .carbon_mobile{
+        position: absolute;
+        z-index: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        top: 28.89vw;
+        right: -35vw;
+    }
+    .carbon_mobile img{
+        display: inline-block;
+    }
+    .first_mobile{
+        position: relative;
+        width: 26.67vw;
+        height: 26.67vw;
+        right: -7vw;
+    }
+    .second_mobile{
+        width: 55.56vw;
+        height: 55.56vw;
+    }
+    .main_img img{
+        display: none;
+    }
+    .left{
+        max-width: 100%;
+    }
+    .text_left h1{
+        font-size: 5.78vw;
+    }
+    .text_left p{
+        font-size: 3.33vw;
+        font-weight: 400;
+    }
+    .text_left button{
+        padding: 5.33vw 10vw 5.33vw 10vw;
+        font-size: 3.56vw;
+        z-index: 1;
+    }
+    .services h1{
+        font-size: 5.33vw;
+    }
+    .ser {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        gap: 44vw;
+        white-space: nowrap;
+    }
+    .services h2{
+        font-size: 5.33vw;
+    }
+    .services p{
+        font-size: 3.33vw;
+    }
+    .carbone{
+        display: none;
+    }
+    .ifs h1{
+        font-size: 5.33vw;
+    }
+    .ifss h3{
+        font-size: 5.33vw;
+    }
+    .ifss{
+        flex-direction: column;
+    }
+    .ifss p{
+        font-size: 5.33vw;
+    }
+    .ifss p>span{
+        font-size: 8.89vw;
+    }
+    .circle{
+        width: 44.44vw;
+        height: 44.44vw;
+    }
+    .circle_s{
+        width: 44.44vw;
+        height: 44.44vw;
+    }
+    .circle_t{
+        width: 44.44vw;
+        height: 44.44vw;
+    }
+    .ifs button{
+        padding: 5.33vw 10vw 5.33vw 10vw;
+        font-size: 3.56vw;
+    }
+    .contacts h1{
+        font-size: 5.33vw;
+    }
+    .main_contacts{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_contacts img{
+        width: 27.56vw;
+        height: 27.56vw;
+    }
+    .text{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .undertitle{
+        font-size: 4.44vw;
+    }
+    .number{
+        font-size: 3.56vw;
+    }
+    .links img{
+        width: 10.67vw;
+        height: 10.67vw;
+    }
+    .contacts button{
+        padding: 4.44vw 5.56vw 4.44vw 5.56vw;
+    }
+    .texts{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 20px;
+    }
+    .texts img{
+        width: 15.56vw;
+        height: 10vw;
+    }
+    .texts p{
+        font-size: 3.33vw;
+    }
+    .right{
+        font-size: 2.89vw;
+    }
+    .down_bar{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 }

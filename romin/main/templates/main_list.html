@@ -3,6 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <script src="{%static 'js/func.js'%}"></script>
     <title>ROMIN</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,11 +18,20 @@
 
 <div class="all_content">
     <div class="top_bar">
-            <img src="{%static 'img/logo.png'%}" alt="">
+            <img src="{%static 'img/img_1.png'%}" alt="">
             <div class="block">
                 <p>УСЛУГИ</p>
                 <p>УСЛОВИЯ</p>
                 <p>КОНТАКТЫ</p>
+            </div>
+        <div class="photo_mobile"><button onclick="drop_down()" class="drp_b"><img src="{%static 'img/img.png'%}" alt=""></button></div>
+            <div class="drop_down">
+                <div class="img_drop"><img src="{%static 'img/img_2.png'%}" alt=""></div>
+                <div class="links_down">
+                <a>УСЛУГИ</a>
+                <a>УСЛОВИЯ</a>
+                <a>КОНТАКТЫ</a>
+                </div>
             </div>
         </div>
     <div class="main">
@@ -29,6 +40,10 @@
                     <h1>Разработка чат-ботов програмного обеспечения и сайтов</h1>
                     <p>Создаём уникальные проекты, удобные и понятные для пользователей.</p>
                     <button>НАПИСАТЬ НАМ</button>
+                </div>
+                <div class="carbon_mobile">
+                    <img src="{%static 'img/carbon_settings.png'%}" alt="" class="first_mobile">
+                    <img src="{%static 'img/carbon_settings.png'%}" alt="" class="second_mobile">
                 </div>
                 <div class="iconss">
                     <img src="{%static 'img/ic_baseline-telegram.png'%}" alt="">
